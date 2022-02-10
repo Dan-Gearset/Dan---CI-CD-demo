@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>smoothie_flavours__c</fullName>
+    <externalId>false</externalId>
+    <label>smoothie flavours</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>strawberry</fullName>
+                <default>true</default>
+                <label>strawberry</label>
+            </value>
+            <value>
+                <fullName>chocolate</fullName>
+                <default>false</default>
+                <label>chocolate</label>
+            </value>
+            <value>
+                <fullName>vanilla</fullName>
+                <default>false</default>
+                <label>vanilla</label>
+            </value>
+            <value>
+                <fullName>biscoff</fullName>
+                <default>false</default>
+                <label>biscoff</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
