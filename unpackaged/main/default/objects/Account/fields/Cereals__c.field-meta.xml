@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cereals__c</fullName>
+    <externalId>false</externalId>
+    <label>Cereal flavours</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>frosties</fullName>
+                <default>false</default>
+                <label>frosties</label>
+            </value>
+            <value>
+                <fullName>corn flakes</fullName>
+                <default>false</default>
+                <label>corn flakes</label>
+            </value>
+            <value>
+                <fullName>krave</fullName>
+                <default>false</default>
+                <label>krave</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
